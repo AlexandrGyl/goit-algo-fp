@@ -14,16 +14,7 @@ TTL.pendown()
 TTL.hideturtle()
 TTL.setheading(90)
 
-###### VARIABLES ######
-# Variable 'branchLength' is the starting length of tree brach.
-# Variable 'branchReduction' subtracts from 'branchLength' in
-# each recursion iteration.
-# Variable 'recursionLevel' is the recursion iteration number.
 
-###### DEFINE treeFractal FUNCTION ######
-# Draw a fractal with recursion level, tree branch length,
-# branch length reduction for each iteration, and
-# the angle by which the branch turns each iteration.
 def treeFractal(TTL, recursionLevel, branchLength, branchReduction, angle):
   if recursionLevel == 0:
     TTL.fd(0)
